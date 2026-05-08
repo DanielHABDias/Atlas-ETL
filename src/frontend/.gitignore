@@ -1,0 +1,28 @@
+# Core do Drupal
+/web/core
+
+# Diretório do vendor (dependências do Composer)
+/vendor
+
+# Arquivos de configuração temporários
+/sites/*/settings.php
+/sites/*/services.yml
+
+# Arquivos de cache e log
+/web/sites/*/files
+/web/sites/*/private
+/web/sites/*/tmp
+
+# Arquivos temporários de build do Drupal
+/.env
+/.htaccess
+/.idea
+*.log
+*.sql
+
+# Outras pastas do Drupal (como cache, temporários, etc.)
+/private
+/.web
+
+# Sistema de arquivos do composer
+/composer.lock

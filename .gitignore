@@ -28,3 +28,8 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+composer.lock
+/src/frontend/vendor/
+/src/atlas-etl/vendor/
+/src/frontend/vendor/
