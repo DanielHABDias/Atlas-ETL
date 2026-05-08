@@ -31,5 +31,4 @@ auth.json
 
 composer.lock
 /src/frontend/vendor/
-/src/atlas-etl/vendor/
-/src/frontend/vendor/
+/src/backend/vendor/

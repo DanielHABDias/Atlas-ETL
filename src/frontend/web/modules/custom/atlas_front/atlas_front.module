@@ -1,0 +1,11 @@
+<?php
+
+function atlas_front_preprocess_page(&$variables) {
+    if (\Drupal::routeMatch()->getRouteName() == 'entity.node.canonical') {
+        $node = \Drupal::routeMatch()->getParameter('node');
+
+        if ($node && $node->getTitle() == 'Countries') {
+            $variables['#attached']['library'][] = 'atlas_front/countries';
+        }
+    }
+}

@@ -1,0 +1,4 @@
+countries:
+  version: 1.x
+  js:
+    js/countries.js: {}
